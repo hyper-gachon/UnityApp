@@ -1,0 +1,58 @@
+<libraries>
+  <library
+      name="C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\1230eaa515f4fcb3bf29df166a3be93f\transformed\out\jars\classes.jar;C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\1230eaa515f4fcb3bf29df166a3be93f\transformed\out\jars\libs\unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\1230eaa515f4fcb3bf29df166a3be93f\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+  <library
+      name=":nrunityandroidpermission:@aar"
+      jars="C:\Users\KangEunshik\.gradle\caches\transforms-3\d8a9ec5b7f7aae8b0f8108702ce83e74\transformed\nrunityandroidpermission\jars\classes.jar"
+      resolved=":nrunityandroidpermission:"
+      folder="C:\Users\KangEunshik\.gradle\caches\transforms-3\d8a9ec5b7f7aae8b0f8108702ce83e74\transformed\nrunityandroidpermission"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":nr_api:@aar"
+      jars="C:\Users\KangEunshik\.gradle\caches\transforms-3\efdec0df7815869c13c6a452793b5d26\transformed\nr_api\jars\classes.jar;C:\Users\KangEunshik\.gradle\caches\transforms-3\efdec0df7815869c13c6a452793b5d26\transformed\nr_api\jars\libs\framework.jar;C:\Users\KangEunshik\.gradle\caches\transforms-3\efdec0df7815869c13c6a452793b5d26\transformed\nr_api\jars\libs\nrcontroller.jar;C:\Users\KangEunshik\.gradle\caches\transforms-3\efdec0df7815869c13c6a452793b5d26\transformed\nr_api\jars\libs\nrdisplay.jar;C:\Users\KangEunshik\.gradle\caches\transforms-3\efdec0df7815869c13c6a452793b5d26\transformed\nr_api\jars\libs\sparrow.jar"
+      resolved=":nr_api:"
+      folder="C:\Users\KangEunshik\.gradle\caches\transforms-3\efdec0df7815869c13c6a452793b5d26\transformed\nr_api"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":nrvirtualcontroller:@aar"
+      jars="C:\Users\KangEunshik\.gradle\caches\transforms-3\c4532c48cd2534417b29dab597f1e45c\transformed\nrvirtualcontroller\jars\classes.jar"
+      resolved=":nrvirtualcontroller:"
+      folder="C:\Users\KangEunshik\.gradle\caches\transforms-3\c4532c48cd2534417b29dab597f1e45c\transformed\nrvirtualcontroller"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:70-98
+		INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:99-145
+	xmlns:android
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:146-186
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-66
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-63
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-64
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-79
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-76
+uses-feature#0x00030000
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-52
+	android:glEsVersion
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-49
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-88
+	android:required
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:61-85
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-99
+	android:required
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:72-96
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-108
+	android:required
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:81-105
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-80
+application
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-32:17
+	android:extractNativeLibs
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:123-155
+	android:label
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:90-122
+	android:icon
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:58-89
+	android:theme
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-57
+meta-data#nreal_sdk
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-64
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:41-61
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-40
+meta-data#com.nreal.supportDevices
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-94
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:56-91
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-55
+meta-data#unity.splash-mode
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+meta-data#unity.launch-fullscreen
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-78
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:55-75
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-54
+meta-data#unity.allow-resizable-window
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:60-81
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-59
+meta-data#notch.config
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+meta-data#unity.auto-report-fully-drawn
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-31:16
+	android:screenOrientation
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:11-47
+	android:label
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:11-43
+	android:launchMode
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:11-42
+	android:hardwareAccelerated
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:11-46
+	android:exported
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:11-35
+	android:configChanges
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:11-164
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:15-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-29:23
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:9-69
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:19-66
+action#android.intent.action.MAIN
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:9-61
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-58
+meta-data#notch_support
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:7-70
+	android:value
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:47-67
+	android:name
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:18-46
+supports-screens
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-163
+	android:largeScreens
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:78-105
+	android:smallScreens
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:21-48
+	android:normalScreens
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:106-134
+	android:anyDensity
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:135-160
+uses-sdk
+ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-61
+INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-61
+INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-61
+INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-61
+INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-61
+	tools:overrideLibrary
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:13-58
+	android:targetSdkVersion
+		INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-61
+		INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-61
+		INJECTED from C:\Users\KangEunshik\Nreal Light\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
