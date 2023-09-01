@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E396F435-8A85-117B-184B-4E3B2959D60E}</ProjectGuid>
+    <ProjectGuid>{B64691E4-BF4F-D156-A912-28D4B0CF91A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -818,11 +818,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NRSDKEditor.csproj">
-      <Project>{71CC8CA2-159F-D927-9B4D-97F71A7097C6}</Project>
+      <Project>{B4BEAB32-1487-D22F-4F7D-75BBF0806E5E}</Project>
       <Name>NRSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NRSDK.csproj">
-      <Project>{F2CA7F8B-5893-A18A-0E5D-121AC0EC0E38}</Project>
+      <Project>{15246B6D-45D2-5DED-E156-74FC3EBEFB2F}</Project>
       <Name>NRSDK</Name>
     </ProjectReference>
   </ItemGroup>

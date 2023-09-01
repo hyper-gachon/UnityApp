@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F2CA7F8B-5893-A18A-0E5D-121AC0EC0E38}</ProjectGuid>
+    <ProjectGuid>{15246B6D-45D2-5DED-E156-74FC3EBEFB2F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NRSDK</AssemblyName>
