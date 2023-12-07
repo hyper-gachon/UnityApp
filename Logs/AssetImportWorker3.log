@@ -1,0 +1,1564 @@
+Unity Editor version:    2022.3.5f1 (9674261d40ee)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64068
+Successfully changed project path to: /Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp
+/Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8026755840] Host "[IP] 192.168.219.100 [Port] 0 [Flags] 2 [Guid] 754836047 [EditorId] 754836047 [Version] 1048832 [Id] OSXEditor(0,nonameui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8026755840] Host "[IP] 192.168.219.100 [Port] 0 [Flags] 2 [Guid] 754836047 [EditorId] 754836047 [Version] 1048832 [Id] OSXEditor(0,nonameui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 9.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004951 seconds.
+- Loaded All Assemblies, in  0.295 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 89 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 620ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (324ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (179ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (65ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 3.94 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 1011ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (221ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (423ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (58.2 KB). Loaded Objects now: 3917.
+Memory consumption went from 142.6 MB to 142.5 MB.
+Total: 2.700958 ms (FindLiveObjects: 0.115333 ms CreateObjectMapping: 0.050750 ms MarkObjects: 2.424958 ms  DeleteObjects: 0.109291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198508.560839 seconds.
+  path: Assets/NRSDK/Scripts/Input/EventSystem/NRPointerEventData.cs
+  artifactKey: Guid(41fa05c98ca22134687894a6a3377814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/EventSystem/NRPointerEventData.cs using Guid(41fa05c98ca22134687894a6a3377814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '758416f27c11e44faf6a6ddc2c4d4724') in 0.064935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/NRSDK/Demos/TrackingImage/Images/TrackingImageDatabase.asset
+  artifactKey: Guid(0710d2d03c2e37f41b7ec7f4298d328d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/TrackingImage/Images/TrackingImageDatabase.asset using Guid(0710d2d03c2e37f41b7ec7f4298d328d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbc321ad1061ce4bd8bb20d359d8f4a5') in 0.033923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/NRSDK/Scripts/Input/Hands/HandState.cs
+  artifactKey: Guid(74a4600d4a4e6c64eb76815d79e8f3c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Hands/HandState.cs using Guid(74a4600d4a4e6c64eb76815d79e8f3c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b7d639b1221dfc2e6ea98918f67e1cf') in 0.002545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/NRSDK/Scripts/Camera
+  artifactKey: Guid(afde6956f9aa4be45b77b6c8169a08ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Camera using Guid(afde6956f9aa4be45b77b6c8169a08ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '242db87ff69fa56c2ad8cca1b03b37d8') in 0.001703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Logo/Materials
+  artifactKey: Guid(e7aa74692ab680d40b5e527f28d11a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Logo/Materials using Guid(e7aa74692ab680d40b5e527f28d11a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd58d782ce6a7ff4bee184bc5a857a61') in 0.001308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/NRSDK/Prefabs/NRCameraRig.prefab
+  artifactKey: Guid(665d8158924bd2648a94fb3f87691bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Prefabs/NRCameraRig.prefab using Guid(665d8158924bd2648a94fb3f87691bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7df09e0d3aa9601a7678690adbc10bef') in 0.061976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 156
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/NRSDK/Scripts/Input/EventSystem/NRExecutePointerEvents.cs
+  artifactKey: Guid(849c4c7808a0f3b4d8d0145dcdbafbe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/EventSystem/NRExecutePointerEvents.cs using Guid(849c4c7808a0f3b4d8d0145dcdbafbe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3515b24f82ac00624b9478669f14db70') in 0.003593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/NRSDK/Scripts/Input/EventSystem/Raycasters/EventCameraRaycaster.cs
+  artifactKey: Guid(802d261d26ea5e347a7f9717a59854fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/EventSystem/Raycasters/EventCameraRaycaster.cs using Guid(802d261d26ea5e347a7f9717a59854fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5980fc1b9d1a42d08eb74eeae4772a5d') in 0.002603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/NRSDK/Resources/Record/Shaders/AlphaBlend.shader
+  artifactKey: Guid(d70a6c8cd6d87e04b8feae84da5308c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record/Shaders/AlphaBlend.shader using Guid(d70a6c8cd6d87e04b8feae84da5308c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a571f43ff12d29d7ec2f752b73827d2e') in 0.006471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/NRSDK/Scripts/Capture/FrameProvider/RGBCameraFrameProvider.cs
+  artifactKey: Guid(9c3104bca150d5446925f7fe3616f9fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/FrameProvider/RGBCameraFrameProvider.cs using Guid(9c3104bca150d5446925f7fe3616f9fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '851ab9754c28b9e5355e7139495421fe') in 0.003471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/NRSDK/Scripts/Camera/Provider/EditorCameraDataProvider.cs
+  artifactKey: Guid(6085a3adb409c3148be8527a18f59e18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Camera/Provider/EditorCameraDataProvider.cs using Guid(6085a3adb409c3148be8527a18f59e18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a0c60132f02136cae51e991d0c85e72') in 0.002642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/button.cs
+  artifactKey: Guid(76c9c33e36a1b414683115a281fb734a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/button.cs using Guid(76c9c33e36a1b414683115a281fb734a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9dc5a63b02983ea93d54e27ff1fbb01') in 0.002873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/NRSDK/Scripts/Trackable/NRTrackablePlane.cs
+  artifactKey: Guid(9c49c35427d34f0438eb02cc3c488cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Trackable/NRTrackablePlane.cs using Guid(9c49c35427d34f0438eb02cc3c488cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df0828f40c1132634988369358008fc4') in 0.002418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/NRSDK/Plugins/LitJson
+  artifactKey: Guid(87e368b18f56d234d974db9924af32ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Plugins/LitJson using Guid(87e368b18f56d234d974db9924af32ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd3c091a35a0c87bf0bc41a041e04cf4') in 0.001650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/NRSDK/Scripts/Capture/FrameCaptureContext.cs
+  artifactKey: Guid(76c0c5dec30497147bc212cfd6883aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/FrameCaptureContext.cs using Guid(76c0c5dec30497147bc212cfd6883aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3405b276dace58e34f637bdf347e810') in 0.002352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/NRSDK/Demos/TrackingImage/Mesh/Axis_Corr_Mesh.obj
+  artifactKey: Guid(f53f11728599e5249b88f3f2e1a5e640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/TrackingImage/Mesh/Axis_Corr_Mesh.obj using Guid(f53f11728599e5249b88f3f2e1a5e640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34a35efea05a134e2c3ee43fcbaffacd') in 0.021077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Notice_Icon.png
+  artifactKey: Guid(1368b0904aaec4044b6f12b3e06f94d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Notice_Icon.png using Guid(1368b0904aaec4044b6f12b3e06f94d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10703c8f21572debfdcd85086c314df6') in 0.037841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002730 seconds.
+  path: Assets/NRSDK/Resources/Record/Shaders/CaptureScreen.shader
+  artifactKey: Guid(46edfa16d19921c43b9ccca1a1c3976b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record/Shaders/CaptureScreen.shader using Guid(46edfa16d19921c43b9ccca1a1c3976b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfad5f84d71e03fb0f03babb67844fc0') in 0.003893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/NRSDK/Scripts/Capture/NRPreviewer.cs
+  artifactKey: Guid(13ea05e40b1284949aa807b8a246226d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/NRPreviewer.cs using Guid(13ea05e40b1284949aa807b8a246226d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36a3cdb9b926e39eb093040b1ef707c4') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ac0a1dc03d248d293652b63913247c1') in 0.002079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/NRSDK/Demos/Meshing/Prefabs/SphereWithRigidbody.prefab
+  artifactKey: Guid(681648bbf1d59a649be89b9d6441573b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Meshing/Prefabs/SphereWithRigidbody.prefab using Guid(681648bbf1d59a649be89b9d6441573b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4d0b39a5f55f01d874ff4555f9cf4447') in 0.010794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NRSDK/Materials/RayHover.mat
+  artifactKey: Guid(bdecb5672ec0d6a4dbdf21205e8e6805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Materials/RayHover.mat using Guid(bdecb5672ec0d6a4dbdf21205e8e6805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a983ceae778c8bae314a950f762997a2') in 0.007341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(42815d1a9869f5c4a9afa476b03ce94f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(42815d1a9869f5c4a9afa476b03ce94f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8920f4a91848679bfec44eaaaedd45bf') in 0.002219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/NRSDK/Scripts/NRBackGroundRender.cs
+  artifactKey: Guid(c2ef05957d9ce7a4db378cf690c835e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/NRBackGroundRender.cs using Guid(c2ef05957d9ce7a4db378cf690c835e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc044ca7db89c82e78cb11cca71a4730') in 0.003590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/UserDefinePanel.cs
+  artifactKey: Guid(8aa3924ff7f6b4e45bfd2b1ca2dc964d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/UserDefinePanel.cs using Guid(8aa3924ff7f6b4e45bfd2b1ca2dc964d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db7719ce75d28a2014167cecf8b28ad4') in 0.002440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/NRSDK/Materials/GuideLineWhite.mat
+  artifactKey: Guid(abc43bcd82cb6b8409bc484d5d9816d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Materials/GuideLineWhite.mat using Guid(abc43bcd82cb6b8409bc484d5d9816d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a159e48aa3276141217462927e50047f') in 0.004048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeTracking.cs
+  artifactKey: Guid(2bd99ee4c3cc5994496ede9e2ee9511b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeTracking.cs using Guid(2bd99ee4c3cc5994496ede9e2ee9511b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '315659f4a188b5ba0f7ce9695bd5fa21') in 0.003459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/NRSDK/Scripts/Subsystems/Trackable/Provider/NRTrackableProvider.cs
+  artifactKey: Guid(156aa430c33c54c499d00afe0300523f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Subsystems/Trackable/Provider/NRTrackableProvider.cs using Guid(156aa430c33c54c499d00afe0300523f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '513f87404c229ca2164ed22398e883f3') in 0.002661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/HiddenDebugPanel.cs
+  artifactKey: Guid(55f9feb1da25dfe41a83995fb45d4b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/HiddenDebugPanel.cs using Guid(55f9feb1da25dfe41a83995fb45d4b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54370c23b87dff42445279f022a369c5') in 0.002321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/NRSDK/Scripts/Capture/NRPhotoCapture.cs
+  artifactKey: Guid(97e5773d4a3acd143b248768820028e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/NRPhotoCapture.cs using Guid(97e5773d4a3acd143b248768820028e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa31f019d7995dc7be989be2a2739f49') in 0.003222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/NRSDK/Emulator/Prefabs/NRTrackableImageTarget.prefab
+  artifactKey: Guid(4cc4ed5324930cd4ca030d3d2b956ea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Emulator/Prefabs/NRTrackableImageTarget.prefab using Guid(4cc4ed5324930cd4ca030d3d2b956ea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e754d1607562d9708e54ce0e6553b0b') in 0.006895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/NRSDK/Scripts/Capture/Encoder/IEncoder.cs
+  artifactKey: Guid(e6f90a44a20f15b4a80bd1284599b792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/Encoder/IEncoder.cs using Guid(e6f90a44a20f15b4a80bd1284599b792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ebcadb27ccfe2d9666578ab00f317cf') in 0.002595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/NRSDK/Emulator/Scene/TrackableImageEmulator.unity
+  artifactKey: Guid(57e43a2a044219046a9058be9642a221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Emulator/Scene/TrackableImageEmulator.unity using Guid(57e43a2a044219046a9058be9642a221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5e0d91460ed3ac6868da469fea55993') in 0.002143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/NRSDK/Resources/Record/Shaders
+  artifactKey: Guid(8f6d05c4c33229343807f611e879d4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record/Shaders using Guid(8f6d05c4c33229343807f611e879d4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57f328d765116e02ee6ae0056e766140') in 0.001641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/NRSDK/Models/Hands
+  artifactKey: Guid(3e0aef5205450fc4c8ccf890f16f9ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Models/Hands using Guid(3e0aef5205450fc4c8ccf890f16f9ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fea3a9c2f767aa7f81663f75a9e52e8') in 0.001501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/NRSDK/Demos/HandTracking/Scripts/HandModelsManager.cs
+  artifactKey: Guid(cb6527658e67ce948a426c0d22ef484d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HandTracking/Scripts/HandModelsManager.cs using Guid(cb6527658e67ce948a426c0d22ef484d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c649f13bac2877d411cae5e98fb27c44') in 0.003234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Types/NativeMeshingType.cs
+  artifactKey: Guid(41866fbd580041542a6b9892b33b45c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Types/NativeMeshingType.cs using Guid(41866fbd580041542a6b9892b33b45c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '798b5aff6401d6c6fb5863fa11c3ee17') in 0.002477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Types/NativeVector3f.cs
+  artifactKey: Guid(ecb53ffa93c624343a4a8c44b6433ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Types/NativeVector3f.cs using Guid(ecb53ffa93c624343a4a8c44b6433ded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '457cf2878f03d1e422770c0ae5f1644f') in 0.002467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/SetFocusPlaneTool.cs
+  artifactKey: Guid(7849ce8997c72b14592c286850f6e12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/SetFocusPlaneTool.cs using Guid(7849ce8997c72b14592c286850f6e12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a44aba3ee13432b85b0336053dbcc29') in 0.003316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/NRSDK/Scripts/Subsystems/Device/NRDeviceSubsystem.cs
+  artifactKey: Guid(3268556fe18b50f4a9095df6f505f73c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Subsystems/Device/NRDeviceSubsystem.cs using Guid(3268556fe18b50f4a9095df6f505f73c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8811f9f7412b5c40d7bcc09aa331d341') in 0.002420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/NRSDK/Resources/Record/Shaders/NormalTexture.shader
+  artifactKey: Guid(636311ba86992214eb45fd254ad03e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record/Shaders/NormalTexture.shader using Guid(636311ba86992214eb45fd254ad03e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b77ae51ca2e3ecd634c8b2fa48cfb91a') in 0.003020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/NRSDK/Scripts/Input/Hands/HandVisuals/NRHandCapsuleVisual.cs
+  artifactKey: Guid(6593ba2e1ba4eb84c9ae1c66e2af71f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Hands/HandVisuals/NRHandCapsuleVisual.cs using Guid(6593ba2e1ba4eb84c9ae1c66e2af71f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ed29202b7f1b4480a3763abe2ffb397') in 0.002741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/NRSDK/Scripts/Android/AndroidPermissionsRequestResult.cs
+  artifactKey: Guid(695bab28176265e46b7fa12a4e065be7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Android/AndroidPermissionsRequestResult.cs using Guid(695bab28176265e46b7fa12a4e065be7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '065152113e6d694eb6b7d037bdd5ae40') in 0.004613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/NRSDK/Scripts/Managers/NRMultiDisplayManager.cs
+  artifactKey: Guid(93ebd2de50e48bb47bf97386b2eb19a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Managers/NRMultiDisplayManager.cs using Guid(93ebd2de50e48bb47bf97386b2eb19a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98f0a060ef6b7bebb488ff59009be038') in 0.002737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.396585 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/NativeInterface.cs
+  artifactKey: Guid(d8c90f6b0034be14fa55c6cce99de751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/NativeInterface.cs using Guid(d8c90f6b0034be14fa55c6cce99de751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a776b2ffafa59d07eb5d2580e1b692d') in 0.003389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/NRSDK/Prefabs
+  artifactKey: Guid(5daed1f840a858340a08cff471a493b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Prefabs using Guid(5daed1f840a858340a08cff471a493b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ab9420e4fb8dbf9b355cc7cb0cecc19') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/NRSDK/Demos/HandTracking/Materials/finger_tip_ball.mat
+  artifactKey: Guid(6f66e4a5f317e004585d685ee2554aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HandTracking/Materials/finger_tip_ball.mat using Guid(6f66e4a5f317e004585d685ee2554aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6b60b6b6c163fa15b7e39ab0301e67d') in 0.002987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Prefabs/PolygonPlaneVisualizer.prefab
+  artifactKey: Guid(484172a328164874f9cc052dd9702481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Prefabs/PolygonPlaneVisualizer.prefab using Guid(484172a328164874f9cc052dd9702481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '903626db791202521c1beef8b0a98bda') in 0.007201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/NRSDK/Resources/NRUI
+  artifactKey: Guid(8d6fea81170d7be4898d90eaf5b36de3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/NRUI using Guid(8d6fea81170d7be4898d90eaf5b36de3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36ee1ea925e8e5da17f9514642332c89') in 0.001495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/NRSDK/Demos/HandTracking/Prefabs
+  artifactKey: Guid(13d369a6520f0f349b23a41c781f854c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HandTracking/Prefabs using Guid(13d369a6520f0f349b23a41c781f854c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9319d1e63bdfe3312b96eb3b182dfe1') in 0.002510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/NRSDK/Scripts/Utility/MainThreadDispather.cs
+  artifactKey: Guid(e6ea7ba4a381ad045858f2dcd9141a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Utility/MainThreadDispather.cs using Guid(e6ea7ba4a381ad045858f2dcd9141a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7828b9007df671adbd7770147633f3a') in 0.002632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/NRSDK/Plugins
+  artifactKey: Guid(001c1bfcb0ab8c34c9303af29292ed40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Plugins using Guid(001c1bfcb0ab8c34c9303af29292ed40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ebc2325647455d755397f859ef3d437') in 0.001479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/NRSDK/Resources/Record/Shaders/NormalBlend.shader
+  artifactKey: Guid(04909298ee656844a97be5a0f55fa934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record/Shaders/NormalBlend.shader using Guid(04909298ee656844a97be5a0f55fa934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9703bd55fff7ea78b09937d195c876c0') in 0.003501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/NRSDK/Materials
+  artifactKey: Guid(6cf42480e9bf92244944828cfa596567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Materials using Guid(6cf42480e9bf92244944828cfa596567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8e47f169ece56d2e79451aebc8ccb14') in 0.001649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/NRSDK/Demos/HelloMR
+  artifactKey: Guid(4e438994d07425b48992b5214fc89646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR using Guid(4e438994d07425b48992b5214fc89646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e3acc67af9b0797681dd6e44412df43') in 0.001297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Types/SessionState.cs
+  artifactKey: Guid(b94a8d340e3dd0a4d975f6411ad9e81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Types/SessionState.cs using Guid(b94a8d340e3dd0a4d975f6411ad9e81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01707c834f3c107fa8f87734a1394f74') in 0.002722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/NRSDK/Demos/PlayVideo
+  artifactKey: Guid(319f6990e4f107643832a7e43f3909fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/PlayVideo using Guid(319f6990e4f107643832a7e43f3909fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2bc15d691d6d23f271dbed695edea33') in 0.001745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/NRSDK/Demos/Meshing/Materials/MeshNormalColor.shader
+  artifactKey: Guid(e93fded4fac209641843bd3453516ebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Meshing/Materials/MeshNormalColor.shader using Guid(e93fded4fac209641843bd3453516ebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c1a1e3d93ef9a9571554617e207b53d') in 0.003052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/NRSDK/Models/ControllerModels/NRPhone
+  artifactKey: Guid(5be8c06314d31bd468f8b8bd001dbc3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Models/ControllerModels/NRPhone using Guid(5be8c06314d31bd468f8b8bd001dbc3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aec959db1aad5f28af2e478ab2f01fac') in 0.001739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/NRSDK/Scripts/Capture
+  artifactKey: Guid(04136ee482eed394f9e4000cafa755a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture using Guid(04136ee482eed394f9e4000cafa755a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3421789d1a557ec07735babf694b34f2') in 0.001592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/ControllerVisualFactory.cs
+  artifactKey: Guid(8bddd681c61cd5644818dc014897a1a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/ControllerVisualFactory.cs using Guid(8bddd681c61cd5644818dc014897a1a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3010216f3b768983ea5400138a1746d9') in 0.003472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/NRSDK/Scripts/Capture/Encoder/ImageEncoder.cs
+  artifactKey: Guid(22de9da116d16304abf050f5b67ac072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/Encoder/ImageEncoder.cs using Guid(22de9da116d16304abf050f5b67ac072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46d204dd49e43c81460b6b39aafeb65a') in 0.002521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/NRSDK/Scripts/NRNotificationListener.cs
+  artifactKey: Guid(6babdd7312fca3b41a440b2c8724bafd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/NRNotificationListener.cs using Guid(6babdd7312fca3b41a440b2c8724bafd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '085338d2eaeee60970dac0187f7ebb04') in 0.002422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/NRSDK/Demos/Record/Scripts/VideoRecordConfigPanel.cs
+  artifactKey: Guid(c2a78890368b9df4191c06eeab6c8ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Record/Scripts/VideoRecordConfigPanel.cs using Guid(c2a78890368b9df4191c06eeab6c8ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b044f390c64b5c642cd1e607348b5f48') in 0.003524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Materials/plane.mat
+  artifactKey: Guid(52424fe9902de9f4e851c0e5415c2b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Materials/plane.mat using Guid(52424fe9902de9f4e851c0e5415c2b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '117460e90ed5228d024ac81417e3ab91') in 0.004829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b9e4f6f87931838c3e1a767d6ae1bad') in 0.002136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/NRSDK/Editor/Scripts/AndroidGradleTemplate.cs
+  artifactKey: Guid(1612c2a6be79549eb9fd447dd369de74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Editor/Scripts/AndroidGradleTemplate.cs using Guid(1612c2a6be79549eb9fd447dd369de74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a45627a505a04b04a9ffb173b78bbe9e') in 0.002355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/NRSDK/Demos/Meshing/Scripts/ObjectEmitter.cs
+  artifactKey: Guid(15548728e7b98624581f7ccb6c8408c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Meshing/Scripts/ObjectEmitter.cs using Guid(15548728e7b98624581f7ccb6c8408c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e900657e8f5579642c3d99b6a5ec85b') in 0.003724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Prefabs/AppManager.prefab
+  artifactKey: Guid(bc661a7add1b544499c314e1e40c009e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Prefabs/AppManager.prefab using Guid(bc661a7add1b544499c314e1e40c009e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fc993f0fad06186b837c71d7ddd3717') in 0.003717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/NRSDK/Demos/TrackingImage/Prefabs/Marker.prefab
+  artifactKey: Guid(dddb2b3a6684c9443a8830f3022c7a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/TrackingImage/Prefabs/Marker.prefab using Guid(dddb2b3a6684c9443a8830f3022c7a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ae7ae9f89501dce318eb48cb1b71004') in 0.006341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/NRSDK/Scripts/Capture/Models
+  artifactKey: Guid(aa55bda70fb14d94b991b98fccce41a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/Models using Guid(aa55bda70fb14d94b991b98fccce41a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbbc2a1a78ca59663ecc5cb43668cbaf') in 0.001502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/NRSDK/Demos/PlayVideo/Scripts/ScreenApapter.cs
+  artifactKey: Guid(3f873c3ad1ddd2641abc3dae543ca493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/PlayVideo/Scripts/ScreenApapter.cs using Guid(3f873c3ad1ddd2641abc3dae543ca493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3454c183962eed6b76017b99ba85cd98') in 0.002688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/NRSDK/Demos/Meshing/Scripts
+  artifactKey: Guid(fb40458dbfc9c1b4a8ecd5dcec872705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Meshing/Scripts using Guid(fb40458dbfc9c1b4a8ecd5dcec872705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e21a52f9bb8c594e831526fd9fd4d855') in 0.002631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/ControllerStateParsers/NrealLightControllerStateParser.cs
+  artifactKey: Guid(1af09a226415401409c68fdb595366a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/ControllerStateParsers/NrealLightControllerStateParser.cs using Guid(1af09a226415401409c68fdb595366a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0e27ebcaaf3b1d01d178b843a45655f') in 0.002469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/NRSDK/Demos/Record/Scripts/VideoCapture2LocalExample.cs
+  artifactKey: Guid(fa31cd8cbc7602f418d8e0cc450b0d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Record/Scripts/VideoCapture2LocalExample.cs using Guid(fa31cd8cbc7602f418d8e0cc450b0d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef99b8de1c75ba8f68582d9475b20783') in 0.002999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/NRSDK/Emulator/Scripts/TrackableFoundTest.cs
+  artifactKey: Guid(834b5ddd2ee5f9d4abac898af1b37897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Emulator/Scripts/TrackableFoundTest.cs using Guid(834b5ddd2ee5f9d4abac898af1b37897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8894d9833655203f88fe8f9c38d2a893') in 0.003185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Logo/Materials/logo_edge.mat
+  artifactKey: Guid(4b7861fbf4689f145b668fad4bf07b69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Logo/Materials/logo_edge.mat using Guid(4b7861fbf4689f145b668fad4bf07b69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3275d7a690e287bd039d7aace792e1f1') in 0.009388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeVersion.cs
+  artifactKey: Guid(20a05f212dd21eb40abf7c8ea4cd2ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeVersion.cs using Guid(20a05f212dd21eb40abf7c8ea4cd2ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60ccf7e40040e852b1c0f4ffb6f505fa') in 0.002422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/NRSDK/Materials/Hands/simple_joint.mat
+  artifactKey: Guid(a76605e2baed2d54e9925fcda12e78c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Materials/Hands/simple_joint.mat using Guid(a76605e2baed2d54e9925fcda12e78c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71b2fe564ffcaccd86dcc409d814bde9') in 0.003754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeTrackable.cs
+  artifactKey: Guid(f2c7d419a7c6a8b469571696f0eef5ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeTrackable.cs using Guid(f2c7d419a7c6a8b469571696f0eef5ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5f077237d5a3d470dc9929952ac9132') in 0.002131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeGlassesController.cs
+  artifactKey: Guid(4f35678b8a3d1b547b4e40e8309803a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Wrappers/NativeGlassesController.cs using Guid(4f35678b8a3d1b547b4e40e8309803a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0b05567d375fd9f334ab811d25efacc') in 0.002399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/PhoneControllerDisplay/NRDefaultPhoneScreenProvider.cs
+  artifactKey: Guid(d323ba81bb19a9040a36b04b0fde613b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/PhoneControllerDisplay/NRDefaultPhoneScreenProvider.cs using Guid(d323ba81bb19a9040a36b04b0fde613b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1aa0360254e4b8fadff35ee085f0bf52') in 0.003715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/NRSDK/Plugins/LitJson/JsonWriter.cs
+  artifactKey: Guid(6160566037632bb43b0cd6d238abc261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Plugins/LitJson/JsonWriter.cs using Guid(6160566037632bb43b0cd6d238abc261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c77ca664a536742b7ab902f0d4f287a') in 0.002165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/NRSDK/Demos/Input/Scripts/CubeInteractiveTest.cs
+  artifactKey: Guid(deed90b57ee19864480c681126019324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Input/Scripts/CubeInteractiveTest.cs using Guid(deed90b57ee19864480c681126019324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5cab054248cbcab9ede948917e6e9f55') in 0.002542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/NRSDK/Resources/Record/Shaders/AlphaBlendYUV.shader
+  artifactKey: Guid(32cd6fea9254d6549bd158eac9adf899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record/Shaders/AlphaBlendYUV.shader using Guid(32cd6fea9254d6549bd158eac9adf899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64e598cbc8e8c45822fd34cbb23b4e24') in 0.003375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/NRSDK/Prefabs/NRVirtualDisplayer-NebulaStyle.prefab
+  artifactKey: Guid(cc753d26daaee4026a07c45a845996bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Prefabs/NRVirtualDisplayer-NebulaStyle.prefab using Guid(cc753d26daaee4026a07c45a845996bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a6288312f780defc9c91564c5b73668') in 0.011117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Prefabs/PlaneVisualizer.prefab
+  artifactKey: Guid(685bef06e3f7f234286a8e7ea62cb66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Prefabs/PlaneVisualizer.prefab using Guid(685bef06e3f7f234286a8e7ea62cb66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3c571a27bbc6681531f227460287789') in 0.005473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NRSDK/Scripts/NRTrackableQueryFilter.cs
+  artifactKey: Guid(cf53339a40399c04b8c7f1ead4e5af5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/NRTrackableQueryFilter.cs using Guid(cf53339a40399c04b8c7f1ead4e5af5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7547cd919e0e2211f9b2646d657f3f6') in 0.002395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/NRSDK/Demos/HandTracking
+  artifactKey: Guid(d3919e8d4c7d6df44ac7d00026f3b6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HandTracking using Guid(d3919e8d4c7d6df44ac7d00026f3b6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19d79dbd4fb054e38e1697efeffc1006') in 0.001429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/NRSDK/Materials/GuideLine.mat
+  artifactKey: Guid(2807c77f22a845e4f9765e00034f4446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Materials/GuideLine.mat using Guid(2807c77f22a845e4f9765e00034f4446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e159cd2e2516b420c0e0d01bed62b039') in 0.003955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.401460 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/ControllerAnchorsHelper.cs
+  artifactKey: Guid(da71fc89d659a0549bd94985cbb57f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/ControllerAnchorsHelper.cs using Guid(da71fc89d659a0549bd94985cbb57f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '916a6ef42a4b6cbf762411542bd8efe7') in 0.002596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/NRSDK/Scripts/Utility/Async
+  artifactKey: Guid(ef0b6c6e1c59ff64193052fac558ed61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Utility/Async using Guid(ef0b6c6e1c59ff64193052fac558ed61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b77056e1e351c6f8e474814be069189a') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/NRSDK/Editor/Scripts/AndroidManifest.cs
+  artifactKey: Guid(10436078fef083a438a59b5efe539303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Editor/Scripts/AndroidManifest.cs using Guid(10436078fef083a438a59b5efe539303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5de7fa17d5ff952e7d70cea1327aded') in 0.003039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001267 seconds.
+  path: Assets/NRSDK/Scripts/Input/Hands/HandStatesService
+  artifactKey: Guid(2e19204b50fc8b740a7ecffe1170fc6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Hands/HandStatesService using Guid(2e19204b50fc8b740a7ecffe1170fc6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bdfd1f6d77ad31917ba51c98352c1de') in 0.001524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/NRSDK/Editor/NRStubHelper.cs
+  artifactKey: Guid(e1c20b712464740c582ffae78813e803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Editor/NRStubHelper.cs using Guid(e1c20b712464740c582ffae78813e803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c31bb216e9b57207c111f6e5030efab2') in 0.002154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/TrackablePlaneBehaviour.cs
+  artifactKey: Guid(6861a8d59c1b5834086f78de1f3a291d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/TrackablePlaneBehaviour.cs using Guid(6861a8d59c1b5834086f78de1f3a291d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d49bc78333976523c1373822bb0f049') in 0.002582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/NRSDK/Editor/Scripts/Utility
+  artifactKey: Guid(0c73ec848e1cdda45849b213b0fffde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Editor/Scripts/Utility using Guid(0c73ec848e1cdda45849b213b0fffde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6a11b8766c3a09565da35c99573046e') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/NRSDK/Scripts/Camera/CameraProxyFactory.cs
+  artifactKey: Guid(a09b0d270a7d3984cb5bd180ac941c45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Camera/CameraProxyFactory.cs using Guid(a09b0d270a7d3984cb5bd180ac941c45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f38f00865d1a04ed8d72d2c5d73542c4') in 0.002083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/PointsVisualizer.cs
+  artifactKey: Guid(f95a4c9123ab23a499e2d86295434d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/PointsVisualizer.cs using Guid(f95a4c9123ab23a499e2d86295434d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82ec8e7c30c37e931658a19ccff1ce9f') in 0.002362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/NRSDK/Scripts/Subsystems/Display
+  artifactKey: Guid(56a720566a56f2d409f27fa73672f08b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Subsystems/Display using Guid(56a720566a56f2d409f27fa73672f08b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c70dfae257d31cf066a876009df3203') in 0.001563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/NRSDK/Scripts/Subsystems
+  artifactKey: Guid(96b2a2c084ddceb4fa0cde1e3974b9d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Subsystems using Guid(96b2a2c084ddceb4fa0cde1e3974b9d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd21101553eca1a433432ad3ebb71ee04') in 0.001586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/NRSDK/Materials/ARBackGround_tex.mat
+  artifactKey: Guid(64a76d93efb877947a225f7ae08c395e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Materials/ARBackGround_tex.mat using Guid(64a76d93efb877947a225f7ae08c395e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2700b87864bad8f72ef4f9bcb1e5922e') in 0.004836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NRSDK/Resources/NRTrackingModeChangedTip.prefab
+  artifactKey: Guid(03ffa16cba025c844b778902a3170680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/NRTrackingModeChangedTip.prefab using Guid(03ffa16cba025c844b778902a3170680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a96284d8759ec08aedc4f4730ab1d5e') in 0.005505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/NRSDK/Scripts/Subsystems/Device
+  artifactKey: Guid(8e371095c0d4b4e41b04aa5ac3f25299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Subsystems/Device using Guid(8e371095c0d4b4e41b04aa5ac3f25299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '851f620c88c9d113dc5be05cbc1afe35') in 0.001584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Prefabs/TrackingInfomationTips.prefab
+  artifactKey: Guid(f417b2ca638f64349a0095148ae1bdab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Prefabs/TrackingInfomationTips.prefab using Guid(f417b2ca638f64349a0095148ae1bdab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd97c21d183059c718eeb84fad71819f1') in 0.003635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/NRSDK/Scripts/Utility/Async/AsyncTask.cs
+  artifactKey: Guid(71509d5ce86a08b45988a974c311b884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Utility/Async/AsyncTask.cs using Guid(71509d5ce86a08b45988a974c311b884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd99022a87999f331dc3d0f9c3086caf1') in 0.002066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/NRSDK/Resources/Record/Shaders/NormalBlendYUV.shader
+  artifactKey: Guid(65bd92262f4338d42bdbd1f00a5ccef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record/Shaders/NormalBlendYUV.shader using Guid(65bd92262f4338d42bdbd1f00a5ccef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd9e9a7515fa6a539c462da5f76f4fda') in 0.003857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NRSDK/Demos/TrackingImage/Materials/Axis_mat.mat
+  artifactKey: Guid(83533d396a6e3a042a637f7a7c198d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/TrackingImage/Materials/Axis_mat.mat using Guid(83533d396a6e3a042a637f7a7c198d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '240609ab69553d36b9934520b9695e80') in 0.003608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/NRSDK/Plugins/Android/arm64-v8a
+  artifactKey: Guid(430eba2f997862547bec46371abeb460) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Plugins/Android/arm64-v8a using Guid(430eba2f997862547bec46371abeb460) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7a9bf8dd73cb954decadb7a649b582d') in 0.001545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/NRSDK/Scripts/Input/Hands/HandVisuals
+  artifactKey: Guid(106e2754816ed2740a096678128b1001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Hands/HandVisuals using Guid(106e2754816ed2740a096678128b1001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c1edd552b308fe177cabba82ce4dfa5') in 0.001673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Types/NativeConstants.cs
+  artifactKey: Guid(081b49382661f4318b64e0dc57d9629f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Types/NativeConstants.cs using Guid(081b49382661f4318b64e0dc57d9629f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6eea0c07f5fc6c307d5dfd6f26cf5e19') in 0.002202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/ControllerState.cs
+  artifactKey: Guid(0675c35ebb4798d4d998059de6e138e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/ControllerState.cs using Guid(0675c35ebb4798d4d998059de6e138e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2a069b6d8b80a2f244117d47e54d476') in 0.003163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/NRSDK/Editor/Scripts/PreprocessBuildBase.cs
+  artifactKey: Guid(80273416de242174aa5fcc9915de41c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Editor/Scripts/PreprocessBuildBase.cs using Guid(80273416de242174aa5fcc9915de41c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd54a13e31b37e0cc893962b80c50e91') in 0.002671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/NRSDK/Scripts/Capture/Models/CamMode.cs
+  artifactKey: Guid(0ff18ae9ebad2bd40b6c75e1e917f650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/Models/CamMode.cs using Guid(0ff18ae9ebad2bd40b6c75e1e917f650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '365b53131fde8653e730a10f756a3d09') in 0.001946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/NRSDK/Emulator/Scripts/NREmulatorManager.cs
+  artifactKey: Guid(849f3172814cc01439baa32c8543f5c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Emulator/Scripts/NREmulatorManager.cs using Guid(849f3172814cc01439baa32c8543f5c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5187c95e931b38e5c978c8c22e45332f') in 0.003390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/NRSDK/Scripts/Capture/Encoder/AudioFilterStream.cs
+  artifactKey: Guid(38bfef6d85b214164a3c4e7f5a03deed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/Encoder/AudioFilterStream.cs using Guid(38bfef6d85b214164a3c4e7f5a03deed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd90f4b7315cc59e616b43272af7998e3') in 0.002468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/NRSDK/Scripts/Subsystems/Trackable/Provider/NREmulatorTrackableProvider.cs
+  artifactKey: Guid(c7a92f0311691154490958936e3bc7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Subsystems/Trackable/Provider/NREmulatorTrackableProvider.cs using Guid(c7a92f0311691154490958936e3bc7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3dfb77435ae19c0c9fff5d5c8a37cec2') in 0.002542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Plugins/Android/baseProjectTemplate.gradle
+  artifactKey: Guid(c5d759d78f0c6364bba1e19b2b74d4f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Android/baseProjectTemplate.gradle using Guid(c5d759d78f0c6364bba1e19b2b74d4f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fdbdf0c9aad0f132c8b2946a8310274e') in 0.001906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/NRSDK/Scripts/Camera/Model
+  artifactKey: Guid(f7d2361f5aa67874886fb991a69635f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Camera/Model using Guid(f7d2361f5aa67874886fb991a69635f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '296af252d92c0c4e1c2dc1ceca4d9077') in 0.001381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/NRSDK/Demos/Record/Materials/MatVideo.mat
+  artifactKey: Guid(4915485245ee64a26bb2d8bb09496f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Record/Materials/MatVideo.mat using Guid(4915485245ee64a26bb2d8bb09496f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5192f0e759f62b307f414e4eb4ed926a') in 0.003766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/NRSDK/Editor
+  artifactKey: Guid(28f3820f763189f42842f00544e0e4ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Editor using Guid(28f3820f763189f42842f00544e0e4ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b16ef14b4f73cf6203e0f6057eacd340') in 0.001535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/NRSDK/Editor/Scripts/Inspector/NRSessionBehaviourEditor.cs
+  artifactKey: Guid(99a0a603b456d4b1e9eb0eaceca4e121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Editor/Scripts/Inspector/NRSessionBehaviourEditor.cs using Guid(99a0a603b456d4b1e9eb0eaceca4e121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e0725a613764a78fff68f94f1b69b9c') in 0.002392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Types/NRDistortionParams.cs
+  artifactKey: Guid(e7e42da28998bcc48bd4956d432f28ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Types/NRDistortionParams.cs using Guid(e7e42da28998bcc48bd4956d432f28ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2624d687e5fbc5bfb823c5d829936a7') in 0.002457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/NRSDK/Emulator/Resources/Prefabs
+  artifactKey: Guid(dde4169343e9a5445abd7e8fd583a3df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Emulator/Resources/Prefabs using Guid(dde4169343e9a5445abd7e8fd583a3df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ed3662a3b3d4a7ea8718066b03a4a8d') in 0.001535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/NRSDK/Prefabs/Hands/NRHand_R.prefab
+  artifactKey: Guid(7f0032a8f9796bb418c31cdb8c16b78e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Prefabs/Hands/NRHand_R.prefab using Guid(7f0032a8f9796bb418c31cdb8c16b78e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '399e648ce49e24e77f7ac39e01f00aba') in 0.005639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000814 seconds.
+  path: Assets/NRSDK/Scripts/Subsystems/HeadTracking/Provider/NREmulatorTrackingDataProvider.cs
+  artifactKey: Guid(67c3f5d3ec6b0de4997a596525d92ee9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Subsystems/HeadTracking/Provider/NREmulatorTrackingDataProvider.cs using Guid(67c3f5d3ec6b0de4997a596525d92ee9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df98ae2112935559c54a49029c7145e9') in 0.002647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Resources/UnInitializedTip.prefab
+  artifactKey: Guid(d6694ee549a504345bbadc336fcfc605) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Resources/UnInitializedTip.prefab using Guid(d6694ee549a504345bbadc336fcfc605) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d26418dcde44495cbe882e783fc45e4') in 0.007271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/ControllerTracker.cs
+  artifactKey: Guid(bf486d9f905ca234c96c34071a68b2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/ControllerTracker.cs using Guid(bf486d9f905ca234c96c34071a68b2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b699b1cfae09b4064a8b77f1d0950fa2') in 0.002287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/NRSDK/Demos/Meshing/Materials/MeshInvisible.mat
+  artifactKey: Guid(a3d4244886e7f61469a9460f3f5c9f65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/Meshing/Materials/MeshInvisible.mat using Guid(a3d4244886e7f61469a9460f3f5c9f65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a23f40672f40d21f0cdbadf04d65f80') in 0.002919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/NRSDK/Prefabs/Hands
+  artifactKey: Guid(013cdf2ada37e2a43b943dbe2e91c266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Prefabs/Hands using Guid(013cdf2ada37e2a43b943dbe2e91c266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c0b0bfb096fd0db00c99e4d639467a1') in 0.001628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+  artifactKey: Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt using Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6e459ff76f7eba942f8bbc6d426c5c0') in 0.015292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/NRSDK/Scripts/NRAnchor.cs
+  artifactKey: Guid(a755e05a128c37c4fb9afe5d5b212885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/NRAnchor.cs using Guid(a755e05a128c37c4fb9afe5d5b212885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '07e2314dad18c27de9ec0c155ce2551d') in 0.011272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.263285 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/NRButton.cs
+  artifactKey: Guid(d6b85f82ef62b66458d4e3b16946dd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/NRButton.cs using Guid(d6b85f82ef62b66458d4e3b16946dd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7d52f56332145c76fe1c2714c556d5f') in 0.002444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/NRSDK/Shaders/RayTarget.shader
+  artifactKey: Guid(ca8c382ae83da734d977ecf50db544b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Shaders/RayTarget.shader using Guid(ca8c382ae83da734d977ecf50db544b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cd0aca76bc2a509f38e49420ca8f8d6') in 0.003771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/GazeTracker.cs
+  artifactKey: Guid(af1b90b755bde7e47984360748c9415c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/GazeTracker.cs using Guid(af1b90b755bde7e47984360748c9415c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5fda5f5cad9d33533006b371bc325a3e') in 0.002263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/NRSDK/Scripts/Capture/CaptureBehaviour/NRRecordBehaviour.cs
+  artifactKey: Guid(11729a3e0c92b174ba36364ad83518bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/CaptureBehaviour/NRRecordBehaviour.cs using Guid(11729a3e0c92b174ba36364ad83518bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b75f09e951b2e68ec457177a9af3e59') in 0.004507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/NRSDK/Demos/HandTracking/Scripts/HandJointFollowTarget.cs
+  artifactKey: Guid(01838d2535fc1884b95865ca3061c27a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HandTracking/Scripts/HandJointFollowTarget.cs using Guid(01838d2535fc1884b95865ca3061c27a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9dcc6eb33e82f9099960e75d6b9ba934') in 0.002597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/NRSDK/Demos/HandTracking/ArtResources/Pens/Scripts/Core
+  artifactKey: Guid(cc3137a1d11de2843bc7d3be4c7d6650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HandTracking/ArtResources/Pens/Scripts/Core using Guid(cc3137a1d11de2843bc7d3be4c7d6650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '707327f38a90bca99a4bcaa6835630b9') in 0.001582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/PlaneDetector.cs
+  artifactKey: Guid(b2808874a8df43e4aab45def7eb613e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/PlaneDetector.cs using Guid(b2808874a8df43e4aab45def7eb613e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd5a999658955edc198b8eaa167b0e37') in 0.003023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/NRSDK/Scripts/NRRenderer.cs
+  artifactKey: Guid(d35e99868bd852d489f92aa2f3cc3178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/NRRenderer.cs using Guid(d35e99868bd852d489f92aa2f3cc3178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '04a0e334ea59146bb4c842a2ff5cc4be') in 0.002433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/AutoRotate.cs
+  artifactKey: Guid(d4e46781612b81d4ba22ac99f1c8ab23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/AutoRotate.cs using Guid(d4e46781612b81d4ba22ac99f1c8ab23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d8ec20ed9a9d55024fcff3eaa08eb8d') in 0.002172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/NRSDK/Scripts/Android/NRAndroidPermissionsManager.cs
+  artifactKey: Guid(5a2964d2258a2ad48adb32ca7f64afef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Android/NRAndroidPermissionsManager.cs using Guid(5a2964d2258a2ad48adb32ca7f64afef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '808be8b5abc71b39c467da74d0cb0343') in 0.003390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/NRSDK/Scripts/Input/Hands/NRGrabber/NRGrabber.cs
+  artifactKey: Guid(488b19cf7abc0c04ca63230805c2dd0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Hands/NRGrabber/NRGrabber.cs using Guid(488b19cf7abc0c04ca63230805c2dd0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '097fb379109c17b5664757bca24d1b6b') in 0.002213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/NRSDK/Scripts/Capture/Encoder/AudioEncoder.cs
+  artifactKey: Guid(3f5bbe840d2b7487598ab09b4f9f62ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Capture/Encoder/AudioEncoder.cs using Guid(3f5bbe840d2b7487598ab09b4f9f62ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9b4a3c6492dc1dad8c3b9ae2c2469fb') in 0.002396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/NRSDK/Emulator/Scene
+  artifactKey: Guid(9bb12d6c8d4bc1c49872b6b83c869485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Emulator/Scene using Guid(9bb12d6c8d4bc1c49872b6b83c869485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '278ab7e420396b84421243e0f6726dce') in 0.001469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/NRSDK/Scripts/Input/Hands
+  artifactKey: Guid(1920a4754946ee042bf4756937fef98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Hands using Guid(1920a4754946ee042bf4756937fef98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70a9f6c1fbeb34a3f25c983d6e403070') in 0.001458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/NRSDK/NRProjectConfig.asset
+  artifactKey: Guid(c66f5f1413c2e471aa0c410731aa0a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/NRProjectConfig.asset using Guid(c66f5f1413c2e471aa0c410731aa0a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cda67494f007fc5841ffceab4c6d2ec1') in 0.003217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/ControllerVisuals/NRPhoneControllerVisual.cs
+  artifactKey: Guid(5f4dd18868a5ef24b9c23f436fe3a740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/ControllerVisuals/NRPhoneControllerVisual.cs using Guid(5f4dd18868a5ef24b9c23f436fe3a740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3aef2492b9632124803b2f20b769d450') in 0.002381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/NRSDK/Scripts/NRVirtualDisplayer.cs
+  artifactKey: Guid(6a23499f7c6839f40a578be5d3144670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/NRVirtualDisplayer.cs using Guid(6a23499f7c6839f40a578be5d3144670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7738daabdb403bdaf3d2ef2e481eaf06') in 0.002323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/NRSDK/Plugins/Android/armeabi-v7a
+  artifactKey: Guid(07944e6b5e105b940937eec97fdcc1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Plugins/Android/armeabi-v7a using Guid(07944e6b5e105b940937eec97fdcc1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c63a88b9340210377ca1d8a5ec1967d2') in 0.002485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/NRSDK/Resources/Record
+  artifactKey: Guid(a77d91e1633fa6b439bcd494f256c84d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Resources/Record using Guid(a77d91e1633fa6b439bcd494f256c84d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f510da74113b043ed0959cb659d427d9') in 0.001598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Types/NativeDevice.cs
+  artifactKey: Guid(5d2d906d3811491419567ea4d44d2404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Types/NativeDevice.cs using Guid(5d2d906d3811491419567ea4d44d2404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14cf419c9222471036e31e0bf5cf2ccd') in 0.001878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/NRSDK/Demos/HelloMR/Scripts/TrackingInfomationTips.cs
+  artifactKey: Guid(932e77c0999f9d646b65d461769d8395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/HelloMR/Scripts/TrackingInfomationTips.cs using Guid(932e77c0999f9d646b65d461769d8395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c87c25d3a578a7c541fc02d962d4b8fd') in 0.002289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/NRSDK/Demos/TrackingImage
+  artifactKey: Guid(bd8d6efc667434d41a7b330251bc519e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Demos/TrackingImage using Guid(bd8d6efc667434d41a7b330251bc519e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '577af17d8044dca6a90b53d17790a497') in 0.001796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/NRSDK/Scripts/Interfaces/Types/NativeVector4f.cs
+  artifactKey: Guid(b0c6236e910ee401da3e452d003f7837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Interfaces/Types/NativeVector4f.cs using Guid(b0c6236e910ee401da3e452d003f7837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41eff0d6425e800d7b77cacb1196ffce') in 0.003180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/NRSDK/README.txt
+  artifactKey: Guid(25c219b7bc5f58143ae35a86daeeaca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/README.txt using Guid(25c219b7bc5f58143ae35a86daeeaca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19cd7ff1e7319c9130ed0e174e9a8c25') in 0.001801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/NRSDK/Scripts/Input/EventSystem/Raycasters
+  artifactKey: Guid(69e24592a83fc3b478c2ae2fde540254) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/EventSystem/Raycasters using Guid(69e24592a83fc3b478c2ae2fde540254) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '078addda1318f33c2cce6390bfc84fe8') in 0.001729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/NRSDK/Scripts/Input/Controller/ControllerStateParsers/IControllerStateParser.cs
+  artifactKey: Guid(2d35f0ab2cb3123429fdb4b828e68356) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Scripts/Input/Controller/ControllerStateParsers/IControllerStateParser.cs using Guid(2d35f0ab2cb3123429fdb4b828e68356) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2174fc2def106dec51246b63c0de160') in 0.002558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/NRSDK/Models/ControllerModels/NrealLight/hand_control.FBX
+  artifactKey: Guid(71da1184d065b8644a78344c12ea1ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NRSDK/Models/ControllerModels/NrealLight/hand_control.FBX using Guid(71da1184d065b8644a78344c12ea1ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e65466e8e4b735675ced8628047e95ba') in 0.011925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (2.3 KB). Loaded Objects now: 3921.
+Memory consumption went from 82.4 MB to 82.4 MB.
+Total: 3.131084 ms (FindLiveObjects: 0.133208 ms CreateObjectMapping: 0.049667 ms MarkObjects: 2.927125 ms  DeleteObjects: 0.020667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 497.352536 seconds.
+  path: Assets/NRSDK/NRProjectConfig.asset
+  artifactKey: Guid(c66f5f1413c2e471aa0c410731aa0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NRSDK/NRProjectConfig.asset using Guid(c66f5f1413c2e471aa0c410731aa0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e1f59524276335fb8a0808c1f41376') in 0.021091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/NRSDK/NRSDK.asmdef
+  artifactKey: Guid(02229f6652728da45838accf9ce93851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NRSDK/NRSDK.asmdef using Guid(02229f6652728da45838accf9ce93851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2fefc8c05a2bc0feec2753bad72b5a') in 0.000245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x1794c7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/seohangyeol/Documents/2023-1학기/졸업작품/UnityApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1254ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (39.0 KB). Loaded Objects now: 3925.
+Memory consumption went from 139.3 MB to 139.2 MB.
+Total: 2.646667 ms (FindLiveObjects: 0.140416 ms CreateObjectMapping: 0.052000 ms MarkObjects: 2.372292 ms  DeleteObjects: 0.081417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
